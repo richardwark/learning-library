@@ -15,7 +15,7 @@
 
 ## Module 1:  Download the Client Credentials (wallet)
 
-The Client Creadentials, also known as the wallet, provides the only authentication information that
+The Client Credentials, also known as the wallet, provides the only authentication information that
 can be used to connect to your ATP database. This wallet must be
 downloaded to the client that will be connecting to the database. The
 wallet can be downloaded from two locations, the Database Details page
@@ -35,7 +35,7 @@ gets downloaded to so you can find it on your system.
 ![../Desktop/Screen%20Shot%202019-04-22%20at%2012.23.30%20PM.png](./media/wallet1.jpg)
 <p align="center">Figure 1-2</p>
 
-3. If you completed the previous step successfuly you can proceed to Module 2. **Alternatively** you can download the wallet using the DB Connection button in the main Database
+3. If you completed the previous step successfully you can proceed to Module 2. **Alternatively** you can download the wallet using the DB Connection button in the main Database
 Details page to download the credentials:
 
 ![](./media/wallet2.jpg)
@@ -85,7 +85,9 @@ contained in the wallet. The files used in the labs are:
 
 ## Module 3:  Connecting to the Database using SQL Developer 
 
-*(Make sure you are running the latest version of SQL Developer 18.4. Some older versions will not work with ADB, see lab introductions on how to install)*
+**PLEASE NOTE: SQL DEVELOPER CONNECTONS DO NOT WORK IF YOU ARE BEHIND THE VPN OR ON ORACLE OFFICE PRIVATE NETWORKS. IF YOU ARE USING THE VPN CLIENT YOU MUST DISCONNECT FROM VPN, AND FROM AN ORACLE OFFICE CONNECT TO AN OPEN/PUBLIC ACCESS NETWORK**
+
+*(Make sure you are running the latest version of SQL Developer. Some older versions will not work with ADB, see lab introductions on how to install)*
 
 1. Start SQL Developer (by clicking the icon on your desktop or selecting
 from the Windows Start menu) and create a connection for your database
@@ -99,20 +101,26 @@ top left of the SQL Developer homepage.
 
 3. The new Database Connection screen will appear:
 
-![](./media/image8.png)
+![](./media/5e7ce7da8b1304d89cfad7c628942219.png)
 <p align="center">Figure 3-2</p>
 
 4. Fill in the connection details as below:
 
-**Connection Name:** pick a connetion name
+**Name:** pick a connection name
+
+**Database Type:** Oracle
+
+**Authentication Type** Default
 
 **Username:** the database user name that was created for you
 
 **Password:** the database user password created for your account
 
-**Connection Type:** *Cloud Wallet*
+**Role** Default
 
-**Configuration File:** Enter the full path for the wallet file you downloaded before (in my example wallet\_ATPXWEEK.zip), or click the Browse button to point to the location of the file.
+**Connection Type:**  Cloud Wallet
+
+**Configuration File:** Enter the full path for the wallet file you downloaded before, or click the Browse button to point to the location of the file.
 
 
 ![../Desktop/Screen%20Shot%202019-04-22%20at%2012.24.09%20PM.png](./media/image9.png)
@@ -120,12 +128,13 @@ top left of the SQL Developer homepage.
 
 **Service:** Many services may be listed but make sure you pick the one for with the database name you created. In this example its **atpxweek\_TP. For this lab pick any of the services that contain your database name.
 
-5. Test your connection by clicking the **Test** button, if it succeeds proceed to step 6. If your test failed to successfuly connect to your database, the most likely reasons are:
+5. Test your connection by clicking the **Test** button, if it succeeds proceed to step 6. If your test failed to successfully connect to your database, the most likely reasons are:
+-   you are connected to VPN or in an Oracle office not on the public network
 -   that you used an incorrect password (or username and password)
 -   you are behind the Oracle VPN - you need to be in a public network
 -   you selected the wrong Service for your database
 
-Verify that all this information is correct and try your test again. Save your connection once the test succeeeds.
+Verify that all this information is correct and try your test again. Save your connection once the test succeeds.
 
 6. Click on **Save Password** so you don't have to re-type your password every time you connect to the database.
 
@@ -137,7 +146,7 @@ Verify that all this information is correct and try your test again. Save your c
 your connection it will appear on the list of connections on the top
 left corner of the main dashboard, under connections.
 
-![../Desktop/Screen%20Shot%202019-04-22%20at%2012.28.02%20PM.png](./media/image10.png)
+![](./media/77e7f1ed47bd7ef10eee546c361aac8a.png)
 <p align="center">Figure 3-4</p>
 
 10. Now that you are connected run test a query. The ATP (or ADW) database
@@ -231,7 +240,7 @@ page select **Manage Oracle ML Users**:
 4. This will place you in the OML Login Page. To connect to OML as your user,
 click on the Home Icon on the top right, pointed at by the arrow (or the
 link you received by email). This will open up a new tab with the OML
-home page. In this page log in with the OML username and password that was created for you in an earlier lab. Please note the OML usename and password are different than your Oracle Cloud, and Autonomous Database username and password. 
+home page. In this page log in with the OML username and password that was created for you in an earlier lab. Please note the OML username and password are different than your Oracle Cloud, and Autonomous Database username and password. 
 
 ![../Desktop/Screen%20Shot%202019-04-22%20at%2012.29.27%20PM.png](./media/image18.png)
 <p align="center">Figure 4-3</p>

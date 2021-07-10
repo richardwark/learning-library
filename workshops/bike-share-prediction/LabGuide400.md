@@ -8,15 +8,17 @@ Updated: January 4, 2019
 This lab walks you through the steps to create and train a machine learning model in the Oracle Analytic Cloud, without writing a single line of code. Also, we will show you a comparison between different machine learning models that you can create using OAC.
 
 
-**_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
+## Need Help?
+Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/livelabsdiscussions). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
 
+If you do not have an Oracle Account, click [here](https://profile.oracle.com/myprofile/account/create-account.jspx) to create one.
 ## Objectives
 -   Learn how to create machine learning models in Oracle Analytics Cloud
 -   Compare different machine learning models
 
 
 ## Required Artifacts
--   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
+-    The following lab requires an Oracle  Cloud account. You may use your own cloud account, a cloud account that you obtained through signing up for the free tier, or a training account whose details were given to you by an Oracle instructor.
 
 
 

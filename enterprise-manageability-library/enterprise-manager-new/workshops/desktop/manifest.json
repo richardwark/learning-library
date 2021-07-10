@@ -1,0 +1,16 @@
+{
+  "workshoptitle": "Oracle Enterprise Manager",
+  "help": "livelabs-help-mgmt_us@oracle.com",
+  "tutorials": [
+    {
+      "title": "Introduction",
+      "description": "Introduction to Enterprise Manager Workshops",
+      "filename": "./../../intro/intro-desktop.md"
+    },
+    {
+      "title": "Need Help?",
+      "description": "Solutions to Common Problems and Directions for Receiving Live Help",
+      "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/need-help/need-help-livelabs.md"
+    }
+  ]
+}

@@ -1,45 +1,37 @@
-# Oracle Autonomous Database Workshop Catalog
+# Welcome
+[![](../common/images/livelabs-banner-formarketplace.png)](http://bit.ly/golivelabs/)
 
-The Oracle Autonomous Workshop Catalog is the central location for workshops related to Autonomous Database, including ATP and ADW.  All labs are designed to be modular in nature. To get started, choose one (or more!) of the defined learning paths below:
+The Oracle Data Management LiveLabs is the central location for workshops related to all things Autonomous Database (ADB), Database, Big Data, Data Integration, Machine Learning, Security and more.  Across multiple deployment options:  on-premises and in the cloud.  
 
-## **Autonomous Data Warehouse Learning Plan**
+## How do I get started?
+Visit [LiveLabs](http://bit.ly/golivelabs) now to get started.  Workshops are added weekly, please visit frequently for new content.
 
-### Lab 1: Getting Started and Provisioning a New Autonomous Data Warehouse
+[![](../common/images/livelabs.png)](http://bit.ly/golivelabs)
 
-  Key Objectives:
+### Featured Workshops - Autonomous Database (ADB) 
+- [Analyzing your Data with ADB](https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?p180_id=553)
+- [Autonomous Database Quick Start](https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?p180_id=582)
+- [Machine Learning on ADB](https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?p180_id=560)  
+- [Building an Application from a Spreadsheet on ADB](https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?p180_id=631) 
 
-  - logging into OCI and console
-  - provision ADW
-  - Connect using Oracle SQL Developer.
+## Database 19c
+- [Oracle's Converged Database on ADB](https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?p180_id=613)
+- [Database 19c New Features for Developers](https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?p180_id=636)
+- [Multitenant Fundamentals](https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?p180_id=573)
+- [Database In-Memory](https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?p180_id=566)
+  
+## Enterprise Manager
+- [Enterprise Manager](https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?p180_id=574)
+- [Multitenant Lifecycle Management](https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?p180_id=656)
 
-  **[Click here to launch the lab](https://oracle.github.io/learning-library/workshops/journey4-adwc/?page=LabGuide1.md)**
+## Videos
+- [Oracle Database Product Management YouTube Channel](https://www.youtube.com/channel/UCr6mzwq_gcdsefQWBI72wIQ)
 
-### Lab 2: Working with Data Warehouse Services and the Free Sample Data Sets
+## Need Help?
+Please first consult the "Need Help?" lab located at the bottom of your workshop to see if our FAQ can solve your problem.  If you have an issue that is specific to the contents of the workshop, please reach out to the author located in the "Acknowledgements" section at the bottom of each lab via email. Please include your workshop name and lab name. You can also include screenshots and attach files. If you have a more general issue, or would like to reach out to the LiveLabs management team, email us [here](mailto:livelabs-help_us@oracle.com).   
 
-  Key Objectives:
-
-  - different levels of ADW service
-  - sample data setsStar Schema Benchmark (SSB) & Sales History (SH)
-  - How service level affect performance & concurrency
-
-  **[Click here to launch the lab](https://oracle.github.io/learning-library/workshops/journey4-adwc/?page=LabGuide2.md)**
-
-
-## **Autonomous Transaction Processing Learning Plan**
-
-### Lab 1: Using Node.js with ATP
-
-  Key Objectives:
-
-  - Learn how to build a linux node.js application server and connect it to an Oracle ATP database service
-
-  **[Click here to launch the lab](https://cloudsolutionhubs.github.io/autonomous-transaction-processing/workshops/autonomous-transaction-processing/LabGuide500Configurenode.jsAppWithATP.md)**
+If you do not have an Oracle Account, click [here](https://profile.oracle.com/myprofile/account/create-account.jspx) to create one.
 
 
-### Lab 2: Using Java with ATP
 
-  Key Objectives:
 
-  - Learn how to build a linux Java application server and connect it to an Oracle ATP database service
-
-  **[Click here to launch the lab](https://cloudsolutionhubs.github.io/autonomous-transaction-processing/workshops/autonomous-transaction-processing/LabGuide600ConfigureJavaAppWithATP.md)**

@@ -8,15 +8,17 @@ Updated: January 4, 2019
 This lab walks you through the steps to create a linear regression model in the Oracle Machine Learning tool and apply it to the dataset in the Autonomous Datawarehouse. Also, we will show you how you can use the Oracle Analytics Cloud to visualize the results of the model created in OML.
 
 
-**_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
+## Need Help?
+Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/livelabsdiscussions). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
 
+If you do not have an Oracle Account, click [here](https://profile.oracle.com/myprofile/account/create-account.jspx) to create one.
 ## Objectives
 -   Learn how to create machine learning models in Oracle Machine Learning Tool
 -   Learn how to visualize the results in Oracle Analytics Cloud
 
 
 ## Required Artifacts
--   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
+-    The following lab requires an Oracle  Cloud account. You may use your own cloud account, a cloud account that you obtained through signing up for the free tier, or a training account whose details were given to you by an Oracle instructor.
 
 
 
@@ -28,7 +30,6 @@ This lab walks you through the steps to create a linear regression model in the 
 
 -   Go back to the Cloud Console and open the Instances screen. Find your database, click the action menu and select **Service Console**.
 
-![](./images/500/Picture700-1.png)
 
 -   Log in to the service with your admin password.
 
@@ -51,6 +52,8 @@ This lab walks you through the steps to create a linear regression model in the 
 ![](./images/500/Picture500-16.png)
 
 -   In the **Notebooks** section, click on **Import** and import the [**Bike Share Availability Prediction.json**](./files/scripts/Bike Share Availability Prediction.json) file.
+
+-   If you are on Orale/learning library, click on <a href="https://raw.githubusercontent.com/oracle/learning-library/master/workshops/bike-share-prediction/files/scripts/Bike%20Share%20Availability%20Prediction.json" target="_blank">here</a> to download the file (right click then save page as .json file). 
 
 ![](./images/500/Picture500-17.png)
 

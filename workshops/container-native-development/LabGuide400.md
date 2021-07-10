@@ -10,8 +10,10 @@ You will take on 2 personas during the workshop. The **Lead Developer Persona**
 
 During this lab, you will take on the **DevOps Engineer Persona** and perform a Blue/Green deployment of your microservice to Kubernetes. In a Blue/Green deployment, you will run the new version of the microservice without bringing down the old version. Once the new version is fully available, you will reroute traffic to the new version by reconfiguring the load balancer service.
 
-**_To log issues_**, click here to go to the [GitHub oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
+## Need Help?
+Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/livelabsdiscussions). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
 
+If you do not have an Oracle Account, click [here](https://profile.oracle.com/myprofile/account/create-account.jspx) to create one.
 ## Objectives
 
 **Perform a Blue/Green Deployment to Kubernetes**
@@ -108,7 +110,7 @@ This selector will instruct your load balancer to only route traffic to the blue
 
   ![](images/400/12.png)
 
-- In the product catalog application, you'll see that the title now indicates which color the twitter feed pod is that is serving our application. Of course it is currently a blue pod, as we haven't yet deployed the new (green) version of our application. Let's do that now, but leave this tab open, as we will come back to it a few more times to verify which color deployment is live.
+- In the product catalog application, you will see that the title now indicates which color the twitter feed pod is that is serving our application. Of course it is currently a blue pod, as we haven't yet deployed the new (green) version of our application. Let's do that now, but leave this tab open, as we will come back to it a few more times to verify which color deployment is live.
 
   ![](images/400/13.png)
 

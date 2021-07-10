@@ -1,0 +1,31 @@
+{
+    "workshoptitle": "Event Driven OCI Function",
+    "help": "livelabs-help-oci_us@oracle.com",
+	"tutorials": [
+        {
+            "title": "Getting Started",
+            "filename": "../../../../common/labs/cloud-login/cloud-login-livelabs2.md"
+        },
+        {
+            "title": "Introduction",
+            "filename": "../../labs/functions-load-file-into-adw-python/intro/intro.md"
+        },
+        {
+            "title": "Lab 1: Functions Prerequisites",
+            "filename": "../../labs/functions-load-file-into-adw-python/prerequisites/prereq.md"
+        },
+        {
+            "title": "Lab 2: Create Bucket and Autonomous Database",
+            "filename": "../../labs/functions-load-file-into-adw-python/oci-services/oci.md"
+        },
+        {
+            "title": "Lab 3: Create the Function",
+            "filename": "../../labs/functions-load-file-into-adw-python/function/func.md"
+        },
+        {
+            "title": "Need Help?",
+            "description": "Solutions to Common Problems and Directions for Receiving Live Help",
+            "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/oci-library/need-help/need-help-livelabs.md"
+        }
+    ]
+}

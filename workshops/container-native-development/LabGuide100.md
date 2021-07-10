@@ -10,8 +10,10 @@ You will take on 2 personas during the workshop. The **Lead Developer Persona**
 
 During this lab, you will take on the **Lead Developer Persona** and work on containerizing your existing Java application. You will set up Wercker to monitor your application's source code repository for commits and automatically trigger a build, test, and package pipeline, which will result in a Docker image of your application that is ready to be deployed.
 
-**_To log issues_**, click here to go to the [GitHub oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
+## Need Help?
+Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/livelabsdiscussions). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
 
+If you do not have an Oracle Account, click [here](https://profile.oracle.com/myprofile/account/create-account.jspx) to create one.
 ## Objectives
 
 **Containerize Your Java Application and Automate Building and Packaging**
@@ -267,7 +269,7 @@ push-release:
 
   ![](images/100/30.png)
 
-- Once the workflow finishes, you'll see both the build and push-release pipelines turn green to indicate success.
+- Once the workflow finishes, you will see both the build and push-release pipelines turn green to indicate success.
 
   ![](images/100/39.1.png)
 

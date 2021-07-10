@@ -4,7 +4,7 @@
 
 [Overview](#overview)
 
-[Pre-Requisites](#pre-requisites)
+[Prerequisites](#Prerequisites)
 
 [Recommended Learning Assets](#recommended-learning-assets)
 
@@ -23,7 +23,7 @@
 
 In this lab we will create a compute instance, install a load generation and montoring application called Grafana. We will then generate load on CPU and memory and use Grafana to monitor this compute instance.
 
-## Pre-Requisites
+## Prerequisites
 
 - Oracle Cloud Infrastructure account credentials (User, Password, Tenant, and Compartment)  
 
@@ -242,7 +242,7 @@ User name and password are 'admin'
 ![]( img/Grafana_008.PNG)
 
 12. Switch to Grafana tab and paste the OCID in **Tenancy OCID**. Choose your region for **Default Region**(IAD if us-ashburn, PHX if us-phoneix1, LHR if London etc). All region codes are listed at https://docs.cloud.oracle.com/iaas/Content/General/Concepts/regions.htm.
-Choose **OCI Instance** for Enviornment.
+Choose **OCI Instance** for environment.
 
 ![]( img/Grafana_009.PNG)
 

@@ -8,8 +8,10 @@ Updated: January 4, 2019
 This lab walks you through the steps to provision an Oracle Analytics Cloud (OAC) instance and connect it to your Autonomous Data Warehouse (ADW) instance.
 
 
-**_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
+## Need Help?
+Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/livelabsdiscussions). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
 
+If you do not have an Oracle Account, click [here](https://profile.oracle.com/myprofile/account/create-account.jspx) to create one.
 ## Objectives
 -   Learn how to provision a new Oracle Analytics Cloud Instance
 -   Learn how to connect the OAC instance to your to the ADW
@@ -43,9 +45,9 @@ In this section you will create an OAC instance.
 
 ### **STEP 2: Create an OAC Instance**
 
--   Go to your **Dashboard** page by clicking **My Services Dashboard** from the OCI Console navigation menu.
+-   Go to your **Dashboard** page by clicking **Platform Services** from the OCI Console navigation menu then select **Analytics**.
 
-![](images/LabGuide300-029b17f5.png)
+![](images/LabGuide300-029b17f5_v2.png)
 
 - Click on **Create Instance**.
 

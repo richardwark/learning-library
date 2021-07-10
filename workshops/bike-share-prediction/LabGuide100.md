@@ -4,19 +4,21 @@ Getting Started with Autonomous Data Warehouse (ADW) and Oracle Machine Learning
 ![](images/100/Picture100-lab.png)  
 Updated: January 4, 2019
 
-## **Introduction**
+## Introduction
 
 This lab walks you through the steps to get started using the Oracle Autonomous Data Warehouse (ADW) and the new Oracle Machine Learning (OML) SQL notebook application provided with your Autonomous Data Warehouse on Oracle Infrastructure Cloud (OCI). You will provision a new ADW instance and create a new OML user.
 
 
-**_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
+## Need Help?
+Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/livelabsdiscussions). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
 
+If you do not have an Oracle Account, click [here](https://profile.oracle.com/myprofile/account/create-account.jspx) to create one.
 ## Objectives
 -   Learn how to provision a new Autonomous Data Warehouse
 -   Learn how to create OML Users
 
 ## Required Artifacts
--   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
+-   The following lab requires an Oracle  Cloud account. You may use your own cloud account, a cloud account that you obtained through signing up for the free tier, or a training account whose details were given to you by an Oracle instructor.
 
 # Provision Autonomous Data Warehouse (ADW) and Create Users in Oracle Machine Learning (OML)
 
@@ -28,17 +30,21 @@ In this section you will be provisioning an ADW instance using the cloud console
 
 ### **STEP 1: Sign in to Oracle Cloud**
 
--   Go to [cloud.oracle.com](https://cloud.oracle.com), click **Sign In** to sign in with your Oracle Cloud account.
+- From any browser go to oracle.com to access the Oracle Cloud.
 
-![](./images/100/Picture100-2.png)
+    [https://www.oracle.com/](https://www.oracle.com/)
 
--   Enter your **Cloud Account Name** and click **My Services**.
+    ![](images/login-screen.png)
 
-![](./images/100/Picture100-3.jpg)
+- Click the icon in the upper right corner.  Click on **Sign in to Cloud** at the bottom of the drop down.  *NOTE:  Do NOT click the Sign-In button, this will take you to Single Sign-On, not the Oracle Cloud*
 
--   Enter your Oracle Cloud **username** and **password**, and click **Sign In**.
+    ![](images/signup.png)   
 
-![](./images/100/Picture100-4.png)
+- Enter your username and password and click on **Sign In**.
+
+-  Once you log in you will see a page similar to the one below.  Click on the hamburger icon in the upper left corner to reveal the menu.
+
+    ![](images/hamburger.png)  
 
 ### **STEP 2: Create an ADW Instance**
 

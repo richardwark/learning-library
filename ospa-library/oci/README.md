@@ -1,8 +1,17 @@
-# Library for OSPA OCI Labs
+# OSPA - OCI Hands On Lab Repository
 
-[OCI Overview Lab](./oci-overview/OCI_Overview_HOL.md)
-This lab will introduce you to the Oracle Cloud Infrastructure service.  We will be creating a virtual cloud network, compute instances, and block storage.  Then we will install and configure Docker containers on the compute instance.   This lab is designed to be a simple introduction to many of the services you will use in the design of a customer solution and to familiarize you with those services.
 
-[Class Of SE - HOL for Technical Training](./Class-Of-HOL-01/README.md)
-Lab for specific Class of SE Event.  4 section introductory hands on lab to accompany lecture.
+This folder will contain OCI projects related to OSPA that may need public facing documents.  
 
+****
+
+There are no active Public OSPA OCI labs at this time.
+
+****
+### Trial Account
+If you don't have an Oracle Cloud account then you can quickly and easily sign up for a free trial account that provides:
+- $300 of free credits good for up to 3500 hours of Oracle Cloud usage
+- Credits can be used on all eligible Cloud Platform and Infrastructure services for the next 30 days
+- Your credit card will only be used for verification purposes and will not be charged unless you 'Upgrade to Paid' in My Services
+  
+[Click here to request your trial account:](https://cloud.oracle.com/tryit)
